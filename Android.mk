@@ -16,7 +16,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter berkeley charlotte,$(TARGET_DEVICE)),)
+ifneq ($(filter berkeley blanc charlotte,$(TARGET_DEVICE)),)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := HotwordEnrollmentOKGoogleHI6403
